@@ -1,0 +1,23 @@
+name: dawa.tr
+type: theme
+description: 'Custom Theme for my Personal Website.'
+package: Other
+core_version_requirement: ^9 || ^10
+libraries:
+  - dawa_tr/global-styling
+
+base theme: olivero
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
